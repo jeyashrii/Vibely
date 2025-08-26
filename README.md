@@ -1,14 +1,25 @@
 # Vibely
 
-# React + Vite
+**Live Demo:** [https://vibely-s5vz.vercel.app/](https://vibely-s5vz.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Vibely is a fun music app where you can select a mood and get a playlist of songs to match it. The app uses the iTunes API to fetch tracks and lets you play previews right in the browser.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **React** (Vite)
+- **React Router**
+- **CSS**
+- **iTunes API**
+- **Deployed on Vercel**
 
-## Expanding the ESLint configuration
+---
+<img width="1905" height="932" alt="image" src="https://github.com/user-attachments/assets/a7ba8f05-3456-41ec-b43a-43bb3212ddff" />
+<img width="1876" height="935" alt="image" src="https://github.com/user-attachments/assets/b4285240-0d82-4cf8-94a2-211a05a45342" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repo, install dependencies, and run:
+
+```bash
+npm install
+npm run dev
+
