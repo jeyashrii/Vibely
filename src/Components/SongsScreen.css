@@ -1,0 +1,88 @@
+.songs-container {
+  background: url("../assets/images/background.png") no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 2rem;
+  color: #fff;
+  font-family: "Slackey", cursive;
+}
+
+.back-link {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff; /* white text */
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent dark background */
+  border: 2px solid #fff; /* white border for visibility */
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 3;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffeb3b; /* highlight on hover */
+  border-color: #ffeb3b;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.songs-header {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+  color: #ffeb3b;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.songs-list {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.songs-list li {
+  background: rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 2px solid #ffeb3b;
+  box-shadow: 2px 2px 10px #000;
+}
+
+.song-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ffeb3b;
+}
+
+.song-artist {
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  color: #fff;
+}
+
+audio {
+  width: 100%;
+  margin-top: 0.8rem;
+}
+.mood-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.mood-header-image {
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
