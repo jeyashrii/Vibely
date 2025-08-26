@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./MoodSelection.css";
-import spongebob from "../assets/images/spongebob.jpg";
+import spongebob from "../assets/images/SpongeBob.jpg";
 import patrick from "../assets/images/patrick.jpg";
 import squidward from "../assets/images/squidward.jpg";
 import mrKrabs from "../assets/images/mrKrabs.jpg";
