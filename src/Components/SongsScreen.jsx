@@ -3,7 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import axios from "axios";
 import "./SongsScreen.css";
 
-import spongebob from "../assets/images/spongebob.jpg";
+import spongebob from "../assets/images/SpongeBob.jpg";
 import patrick from "../assets/images/patrick.jpg";
 import squidward from "../assets/images/squidward.jpg";
 import mrKrabs from "../assets/images/mrKrabs.jpg";
